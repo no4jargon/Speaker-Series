@@ -108,7 +108,15 @@ a:hover {
 		display: none;
 	}
 	
+	.scmedia{
+		display: none;
+	}
+	
 	.form-mob{
+		display: block;
+	}
+	
+	.scmedia-mob{
 		display: block;
 	}
 }
@@ -125,12 +133,17 @@ a:hover {
 	.form-mob {
 	display: none;
 }
+	
+	.scmedia-mob{
+		display: none;
+	}
+	
 }
 
 .hero {
 	background-image: url(/img/svg/conference_speaker.svg);
 	background-size: 740px;
-	background-position: 78%;
+	background-position: 84%;
 	background-repeat: no-repeat;
 	margin-bottom: 30px
 }
@@ -315,3 +328,12 @@ width: 260px;
 }
 
 
+
+.social-media-links {
+	color: #003262;
+	transition-duration: 0.2s;
+}
+
+.social-media-links:hover {
+	opacity: 70%;
+}
